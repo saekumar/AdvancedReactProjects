@@ -14,7 +14,7 @@ const TodoForm = () => {
     setTodo('')
   }
   return (
-    <form onSubmit={add} className="flex">
+    <form onSubmit={add} className="flex space-x-1">
       <input
         type="text"
         placeholder="Write Todo..."
@@ -24,7 +24,7 @@ const TodoForm = () => {
       />
       <button
         type="submit"
-        className="rounded-r-lg px-3 py-1 bg-green-500 text-white shrink-0"
+        className="rounded-lg gap-4 px-3 py-1 bg-blue-500 text-white shrink-0"
       >
         Add
       </button>
